@@ -5,19 +5,23 @@ module.exports = async function($) {
     <style>
       main {
         text-align: center;
-        background-color: rgba(106, 70, 10, 0.3);
-        font-family: courier;
+        background-color: hsla(9, 100%, 64%, 0.5);
+        font-family: arial;
       }
     </style>
 
-  <h1>About</h1>
+ <img src="img/pexels-james-wheeler-417074.jpg" height="174" alt="travel">
+
+ <h1>About</h1>
     <p>
-      Travelinspo is all you need to plan your holiday.
+      Travel inspiration is all you need to plan your holiday.
     </p>
+    <h4>Find your next trip</h4>
     <p>
       <a href="https://waveorb.com/about.html">
-        Read more about Waveorb here
+        Read more about Travel inspiration here
       </a>
     </p>
+
   `
 }
