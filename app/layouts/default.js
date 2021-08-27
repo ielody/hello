@@ -20,7 +20,7 @@ module.exports = async function($) {
       <body>
         <header>
           <nav>
-            <!--<a href="${$.link('index')}">Destinations</a>-->
+            <!--<a href="${$.link('index')}">Index</a>-->
             <!--<a href="${$.link('about')}">About</a>-->
             <!--<a href="${$.link('topics')}">Topics</a>-->
           </nav>

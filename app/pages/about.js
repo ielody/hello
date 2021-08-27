@@ -10,20 +10,15 @@ module.exports = async function($) {
       }
     </style>
 
- <img src="img/pexels-james-wheeler-417074.jpg" height="174" alt="travel">
-
- <p>
- Read about our destinations and enjoy our best tips to enjoy a new destination.
-</p>
 
  <h1>About</h1>
     <p>
-      Travel inspiration is all you need to plan your holiday.
+      Travelinspiration is all you need to plan your holiday.
     </p>
-    <h4>Find your next trip</h4>
+    <h2>Find your next trip</h2>
     <p>
       <a href="https://waveorb.com/about.html">
-        Read more about Travel inspiration here
+        Read more about Waveorb here
       </a>
     </p>
 

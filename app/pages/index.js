@@ -1,30 +1,25 @@
 module.exports = async function($) {
-  $.page.title = 'About'
+  $.page.title = 'Index'
 
   return /* html */`
     <style>
       main {
         text-align: center;
-        background-color: hsla(9, 100%, 64%, 0.5);
+        background-color: hsla(25, 40%, 44%, 0.1);
         font-family: arial;
       }
     </style>
 
- <img src="img/pexels-james-wheeler-417074.jpg" height="174" alt="travel">
-
- <p>
- Read about our destinations and enjoy our best tips to enjoy a new destination.
+<h2>About me</h2>
+<img src="img/ielody-modified.png" width="120" align="right" alt="portfolio">
+<p>
+After years of traveling I have settled amongst the tallest people in Amsterdam right by the canal houses, coding and writing.
 </p>
-
- <h1>About</h1>
-    <p>
-      Travel inspiration is all you need to plan your holiday.
-    </p>
-    <h4>Find your next trip</h4>
-    <p>
-      <a href="https://waveorb.com/about.html">
-        Read more about Travel inspiration here
-      </a>
+<hr>
+<h3>In the works</h3>
+<p>
+      Currently I am studying to become a front end developer to build functional websites that are easy on the eye.
+      After all, isn't that what we all want?
     </p>
 
   `
