@@ -10,7 +10,7 @@
 *,
 ::before,
 ::after {
-  /*box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /**
@@ -561,7 +561,6 @@ hr {
 img {
   height: auto;
   max-width: 100%;
-  vertical-align: baseline;
 }
 
 embed,
