@@ -12,6 +12,10 @@ module.exports = async function($) {
 
  <img src="img/pexels-james-wheeler-417074.jpg" height="174" alt="travel">
 
+ <p>
+ Read about our destinations and enjoy our best tips to enjoy a new destination.
+</p>
+
  <h1>About</h1>
     <p>
       Travel inspiration is all you need to plan your holiday.

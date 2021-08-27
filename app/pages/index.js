@@ -1,20 +1,31 @@
 module.exports = async function($) {
-  $.page.title = 'Create incredible web apps'
+  $.page.title = 'About'
 
   return /* html */`
     <style>
       main {
         text-align: center;
-      }
-      img.waveorb-logo {
-        max-height: 174px;
-        max-width: 90%;
+        background-color: hsla(9, 100%, 64%, 0.5);
+        font-family: arial;
       }
     </style>
-    <div>
-      <img class="waveorb-logo" src="/img/waveorb-logo-full.svg" height="174" alt="waveorb-logo">
-      <h1>Welcome to my homepage</h1>
-      <p>The complete framework for building fast applications.</p>
-    </div>
+
+ <img src="img/pexels-james-wheeler-417074.jpg" height="174" alt="travel">
+
+ <p>
+ Read about our destinations and enjoy our best tips to enjoy a new destination.
+</p>
+
+ <h1>About</h1>
+    <p>
+      Travel inspiration is all you need to plan your holiday.
+    </p>
+    <h4>Find your next trip</h4>
+    <p>
+      <a href="https://waveorb.com/about.html">
+        Read more about Travel inspiration here
+      </a>
+    </p>
+
   `
 }
