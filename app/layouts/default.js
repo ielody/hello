@@ -32,8 +32,8 @@ module.exports = async function($) {
         <div id="flash"></div>
         <main>${$.page.content}</main>
         <footer>
-          Made by <a href="https://eldoy.com">Eldøy Projects</a>, Oslo, Norway
-        </footer>
+          Made by ielody with'♥'<!--<a href="https://eldoy.com">Eldøy Projects</a>, Oslo, Norway
+        </footer>-->
         <script>flash()</script>
       </body>
     </html>
