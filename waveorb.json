@@ -1,4 +1,5 @@
 {
   "domains": "ielody.com www.ielody.com",
+  "proxy": "http://localhost:46800",
   "git": "https://github.com/ielody/hello.git"
 }
