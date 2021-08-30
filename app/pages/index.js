@@ -16,33 +16,30 @@ module.exports = async function($) {
         margin: 10px;
       }
 
+      h1 {
+        font-size: 40px;
+        margin: 10px;
+      }
+
       #img {
-        display: flex; justify-content: center;
+        display: flex;
+        justify-content: center;
         margin: 20px;
       }
 
       p {
-
         margin: 5px 20px 25px 25px;
         text-align: left;
         font-size: 16px;
       }
 
-      #banner {
-      position: top;
-      }
-
     </style>
 
-<div id="banner"></div>
-
 <div id="img">
-<img src="img/ielody-modified.png" width="160" align=middle alt="portfolio">
+  <img src="img/ielody-modified.png" width="160" align=middle alt="portfolio">
 </div>
 
-
-
-<h2>About me</h2>
+<h1>About me</h1>
 
 <p>
 Hello! My name is Ingeborg and I'm a problem-solver. My love of
@@ -51,16 +48,16 @@ I build user-friendly websites with a clean and simple design. No fuzz. No drama
 I also have experience as a <strong>SEO writer</strong> and worked as a freelance Norwegian <strong>translator</strong> for years.
 Take a look at my portfolio to see examples of what I can do.
 </p>
-
 <hr>
+
 <h3>What I can help you with</h3>
 <ul>
-      <li>Build you a simple and user-friendly website</li>
-      <li>Write blog articles with SEO for your website</li>
-      <li>Be your personal cheerleader (although I'm not really qualified for that)</li>
-
+  <li>Build a simple, customized and user-friendly website </li>
+  <li>Write SEO blog articles for your website to attract more organic traffic to the site</li>
 </ul>
+
 <footer>
-<a href="mailto:ieldoy@gmail.com">Send me an email if you're curious</a></footer>
+  <a href="mailto:ieldoy@gmail.com">Send me an email if you're curious</a>
+</footer>
   `
 }
