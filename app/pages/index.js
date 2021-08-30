@@ -56,8 +56,8 @@ Take a look at my portfolio to see examples of what I can do.
   <li>Write SEO blog articles for your website to attract more organic traffic to the site</li>
 </ul>
 
-<footer>
+<div>
   <a href="mailto:ieldoy@gmail.com">Send me an email if you're curious</a>
-</footer>
+</div>
   `
 }
