@@ -12,7 +12,7 @@ module.exports = async function($) {
 
       h3,
       h2 {
-        font-size: 15px;
+        font-size: 20px;
         margin: 10px;
       }
 
@@ -57,7 +57,7 @@ Take a look at my portfolio to see examples of what I can do.
 </ul>
 
 <div class="mail">
-  <a href="mailto:ieldoy@gmail.com">Send me an email</a>
+  <a class="button" href="mailto:ieldoy@gmail.com">Send me an email</a>
 </div>
   `
 }
