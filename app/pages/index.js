@@ -1,6 +1,6 @@
 module.exports = async function($) {
-  $.page.title = 'Index'
-
+  $.page.title = 'Web developer'
+  $.page.description = "Offering creative services"
   return /* html */`
     <style>
       main {
@@ -12,12 +12,12 @@ module.exports = async function($) {
 
       h3,
       h2 {
-        font-size: 25px;
+        font-size: 15px;
         margin: 10px;
       }
 
       h1 {
-        font-size: 40px;
+        font-size: 30px;
         margin: 10px;
       }
 
@@ -56,8 +56,8 @@ Take a look at my portfolio to see examples of what I can do.
   <li>Write SEO blog articles for your website to attract more organic traffic to the site</li>
 </ul>
 
-<div>
-  <a href="mailto:ieldoy@gmail.com">Send me an email if you're curious</a>
+<div class="mail">
+  <a href="mailto:ieldoy@gmail.com">Send me an email</a>
 </div>
   `
 }

@@ -9,8 +9,8 @@ module.exports = async function($) {
       <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="description" content="Incredible waveorb app">
-        <title>${$.page.title || '♥'} - Waveorb app</title>
+        <meta name="description" content="${$.page.description || '♥'}">
+        <title>${$.page.title || '♥'} - ielody</title>
         <link rel="icon" type="image/png" href="/img/favicon.png">
         ${$.script('/bundle.js')}
         ${$.style('/bundle.css')}
@@ -32,7 +32,7 @@ module.exports = async function($) {
         <div id="flash"></div>
         <main>${$.page.content}</main>
         <footer>
-          Made by ielody with ♥
+          Made with ♥ by ielody
         </footer>
         <script>flash()</script>
       </body>
