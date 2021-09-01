@@ -11,7 +11,7 @@ module.exports = async function($) {
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="description" content="${$.page.description || '♥'}">
         <title>${$.page.title || '♥'} - ielody</title>
-        <link rel="icon" type="image/png" href="/img/faviconielody.png">
+        <link rel="icon" type="image/png" href="/img/faviconi.png">
         ${$.script('/bundle.js')}
         ${$.style('/bundle.css')}
         <script>window.api = waveorb('${host}')</script>
@@ -21,8 +21,8 @@ module.exports = async function($) {
         <header>
           <nav>
             <!--<a href="${$.link('index')}">Index</a>-->
-            <!--<a href="${$.link('about')}">About</a>-->
-            <!--<a href="${$.link('topics')}">Topics</a>-->
+            <!--<a href="${$.link('about')}">Resume</a>-->
+            <!--<a href="${$.link('topics')}">Portfolio</a>-->
           </nav>
         </header>
         <script>

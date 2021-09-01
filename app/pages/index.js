@@ -1,6 +1,6 @@
 module.exports = async function($) {
-  $.page.title = 'Web developer'
-  $.page.description = "Offering creative services"
+  $.page.title = 'You are entering a creative space'
+  $.page.description = "Can't decide which website layout you want for your business? Reach out to me!"
   return /* html */`
     <style>
       main {
@@ -31,6 +31,13 @@ module.exports = async function($) {
         margin: 5px 20px 25px 25px;
         text-align: left;
         font-size: 16px;
+      }
+
+      a.button{
+        background: mediumseagreen;
+        color: white;
+        border-radius: 10px;
+
       }
 
     </style>
