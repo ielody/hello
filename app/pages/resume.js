@@ -1,5 +1,5 @@
 module.exports = async function($) {
-  $.page.title = 'About'
+  $.page.title = 'Resume'
 
   return /* html */`
     <style>

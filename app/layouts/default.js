@@ -11,18 +11,21 @@ module.exports = async function($) {
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <meta name="description" content="${$.page.description || '♥'}">
         <title>${$.page.title || '♥'} - ielody</title>
-        <link rel="icon" type="image/png" href="/img/faviconi.png">
+        <link rel="icon" type="image/png" href="/img/ielodyfavicon.png">
         ${$.script('/bundle.js')}
         ${$.style('/bundle.css')}
         <script>window.api = waveorb('${host}')</script>
         ${process.env.NODE_ENV == 'development' ? $.script('/js/dev.js') : ''}
-      </head>
+
+        </head>
       <body>
         <header>
+
+
           <nav>
-            <!--<a href="${$.link('index')}">Index</a>-->
-            <!--<a href="${$.link('about')}">Resume</a>-->
-            <!--<a href="${$.link('topics')}">Portfolio</a>-->
+            <a href="${$.link('index')}">Index</a>
+            <a href="${$.link('resume')}">Resume</a>
+            <a href="${$.link('portfolio')}">Portfolio</a>
           </nav>
         </header>
         <script>
