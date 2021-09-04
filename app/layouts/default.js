@@ -18,10 +18,9 @@ module.exports = async function($) {
         ${process.env.NODE_ENV == 'development' ? $.script('/js/dev.js') : ''}
 
         </head>
-      <body>
+        <body>
+
         <header>
-
-
           <nav>
             <a href="${$.link('index')}">Index</a>
             <a href="${$.link('resume')}">Resume</a>
