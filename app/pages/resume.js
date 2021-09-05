@@ -50,12 +50,16 @@ module.exports = async function($) {
     margin: 10px 15px;
   }
 
-  a.button {
-    background: mediumseagreen;
-    color: white;
-    border-radius: 10px 40%;
-    margin-right: 30px;
+  a.button{
+        background: DarkMagenta;
+        color: white;
+        border-radius: 10px 50%;
+        transition-duration: 0.3s;
+  }
 
+  .button:hover {
+    background-color: hotpink;
+    color: white;
   }
 
 

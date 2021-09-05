@@ -7,7 +7,6 @@ module.exports = async function($) {
         text-align: left;
         background-color: hsla(220,80%,50%,0.2);
         font-family: Helvetica;
-        padding-top: 2.5rem;
         padding: 2rem 0;
         max-width: 600px;
         color: black;
@@ -37,11 +36,16 @@ module.exports = async function($) {
       }
 
       a.button{
-        background: mediumseagreen;
+        background: DarkMagenta;
         color: white;
         border-radius: 10px 50%;
+        transition-duration: 0.3s;
       }
 
+      .button:hover {
+        background-color: hotpink;
+        color: white;
+      }
 
     </style>
 
