@@ -6,24 +6,20 @@ module.exports = async function($) {
       main {
         text-align: center;
         padding: 2rem 0;
-        max-width: 1000px;
+        max-width: 600px;
         background-color: hotpink;
       }
 
-      div {
-  background-color: white;
-  width: 900px;
-  border: 5px grey;
-  padding: 20px;
-  margin: 20px;
-  text-align: left;
+      a.button::after {
+  border-radius: 50%;
+  border-top: .1em solid #2F56B0;
+  content: "";
+  position: absolute;
+    right: 0;
+    bottom: .14em;
+    left: 0;
+}
 
-  justify-content: center;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
 
 </style>
 
@@ -31,12 +27,13 @@ module.exports = async function($) {
   <body>
 
 
-  <div>
+<div>
   <h2>Article</h2>
   <p>About Copywriting</p>
   </div>
 
-
-
+  <div class="travel blog">
+  <a class="button" href="www.travelartaction.com" target="blank">Take me to your blog</a>
+</div>
   `
 }

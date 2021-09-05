@@ -7,7 +7,7 @@ module.exports = async function($) {
     text-align: center;
     padding: 20px 0;
     max-width: 600px;
-    background-color: lightpink;
+    background-color: hsla(220,80%,50%,0.2);
   }
 
 
@@ -28,11 +28,11 @@ module.exports = async function($) {
 
   .grid-container {
     display: grid;
-    grid-row-gap: 50px lightpink;
+    grid-row-gap: 50px SkyBlue;
+    margin: 20px;
   }
 
   .grid-item {
-    border: 15px solid lightpink;
     padding: 25px;
     font-size: 16px;
     text-align: left;
@@ -42,14 +42,12 @@ module.exports = async function($) {
   .experience {
     text-align: center;
     font-size: 22px;
-    background-color: hotpink;
     margin: 10px 15px;
   }
 
   .education {
     text-align: center;
     font-size: 20px;
-    background-color: plum;
     margin: 10px 15px;
   }
 
@@ -85,7 +83,7 @@ module.exports = async function($) {
   <h2>Amsterdam | 2014-2018</h2>
     <ul>
       <li>Writing SEO texts in English and Norwegian</li>
-      <li>Analyzing data and user patterns by using Google Analytics and Hotjar</li>
+      <li>Analyzing data and user patterns with Google Analytics and Hotjar</li>
       <li>Implementing data in a database for every offer</li>
       <li>Responsible for social media and Wordpress blog</li>
     </ul>
@@ -118,7 +116,7 @@ module.exports = async function($) {
 
 <div class="grid-item">
   <h1>Computer Science, first year Bachelor</h1>
-  <h2>University of Oslo, Norway | 2003-2004</h2>
+  <h2>University of Oslo | 2003-2004</h2>
     <ul>
       <li>Introduction to HTML and CSS</li>
       <li>Introduction to Java programming</li>

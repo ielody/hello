@@ -5,11 +5,12 @@ module.exports = async function($) {
     <style>
       main {
         text-align: left;
-        background-color: hsla(200,100%,25%,0.1);
+        background-color: hsla(220,80%,50%,0.2);
         font-family: monospace;
         padding-top: 2.5rem;
         padding: 2rem 0;
         max-width: 600px;
+        color: DarkSlateGray;
       }
 
       h3,
@@ -38,8 +39,7 @@ module.exports = async function($) {
       a.button{
         background: mediumseagreen;
         color: white;
-        border-radius: 10px;
-
+        border-radius: 10px 50%;
       }
 
     </style>
