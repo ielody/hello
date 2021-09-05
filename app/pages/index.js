@@ -8,6 +8,8 @@ module.exports = async function($) {
         background-color: hsla(200,100%,25%,0.1);
         font-family: monospace;
         padding-top: 2.5rem;
+        padding: 2rem 0;
+        max-width: 600px;
       }
 
       h3,

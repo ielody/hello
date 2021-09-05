@@ -117,11 +117,11 @@ module.exports = async function($) {
 </div>
 
 <div class="grid-item">
-  <h1>Computer Science</h1>
+  <h1>Computer Science, first year Bachelor</h1>
   <h2>Norway, 2003-2004</h2>
     <ul>
-      <li>HTML and CSS</li>
-      <li>Java programming</li>
+      <li>Introduction to HTML and CSS</li>
+      <li>Introduction to Java programming</li>
     </ul>
   </div>
 </div>
