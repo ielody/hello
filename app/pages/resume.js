@@ -12,18 +12,18 @@ module.exports = async function($) {
 
 
   h1 {
-    font-size: 18px;
-    text-align: left;
-    display: inline;
-    margin: 15px;
+    font-size: 16px;
+    /*display: inline;*/
+    margin: 5px;
+    align-content: left;
   }
 
   h2 {
-    font-size: 16px;
-    text-align: right;
-    display: inline;
+    font-size: 14px;
+    /*display: inline;*/
     margin: 15px;
     font-style: italic;
+    align-content: right;
   }
 
   .grid-container {
@@ -63,7 +63,7 @@ module.exports = async function($) {
 
 <div class="grid-item">
   <h1>Editor for Nielsen</h1>
-  <h2>Netherlands, 2020-2021</h2>
+  <h2>Amsterdam | 2020-2021</h2>
     <ul>
       <li>Managing and maintaining a large database</li>
       <li>Editing and adding relevant information in the database in a variety of languages</li>
@@ -73,7 +73,7 @@ module.exports = async function($) {
 
 <div class="grid-item">
   <h1>Freelance translator and writer</h1>
-  <h2>Netherlands, 2018-2020</h2>
+  <h2>Amsterdam | 2018-2020</h2>
     <ul>
       <li>GetYourGuide: Translated travel texts from English to Norwegian</li>
       <li>Hunkemöller: Translated the Norwegian website</li>
@@ -82,7 +82,7 @@ module.exports = async function($) {
 
 <div class="grid-item">
   <h1>Editor and writer at TravelBird</h1>
-  <h2>Netherlands, 2014-2018</h2>
+  <h2>Amsterdam | 2014-2018</h2>
     <ul>
       <li>Writing SEO texts in English and Norwegian</li>
       <li>Analyzing data and user patterns by using Google Analytics and Hotjar</li>
@@ -94,8 +94,8 @@ module.exports = async function($) {
 <div class="education"><strong>Education</strong></div>
 
 <div class="grid-item">
-  <h1>B.A. Media Science<h1>
-  <h2>Norway, 2006-2009</h2>
+  <h1>Media Science, Bachelor of Arts<h1>
+  <h2>University of Oslo | 2006-2009</h2>
     <ul>
       <li>Online news publication: Writing and publishing articles</li>
       <li>Media analysis: Film, newspaper and television</li>
@@ -106,19 +106,19 @@ module.exports = async function($) {
 </div>
 
 <div class="grid-item">
-  <h1>B.A. Major in Japanese</h1>
-  <h2>Norway, 2004-2006</h2>
+  <h1>Japanese, Bachelor of Arts</h1>
+  <h2>University of Oslo & Josai Int. University, Japan | 2004-2007</h2>
     <ul>
-      <li>Japanese language; Basic and intermediate course</li>
+      <li>Japanese language; Intermediate</li>
       <li>One semester in Sapporo in North Japan</li>
       <li>Subjects of Japanese society, culture and history</li>
-      <li>One year at Josai International University in Japan</li>
+      <li>One year at Josai Int. University</li>
     </ul>
 </div>
 
 <div class="grid-item">
   <h1>Computer Science, first year Bachelor</h1>
-  <h2>Norway, 2003-2004</h2>
+  <h2>University of Oslo, Norway | 2003-2004</h2>
     <ul>
       <li>Introduction to HTML and CSS</li>
       <li>Introduction to Java programming</li>
