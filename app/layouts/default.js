@@ -20,11 +20,12 @@ module.exports = async function($) {
         </head>
         <body>
 
+
         <header>
           <nav>
-            <a href="${$.link('index')}">Index</a>
-            <a href="${$.link('resume')}">Resume</a>
-            <a href="${$.link('portfolio')}">Portfolio</a>
+          <a class="button" href="${$.link('index')}">Home</a>
+          <a class="button" href="${$.link('resume')}">Resume</a>
+          <a class="button" href="${$.link('portfolio')}">Portfolio</a>
           </nav>
         </header>
         <script>

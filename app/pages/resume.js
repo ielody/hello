@@ -10,7 +10,6 @@ module.exports = async function($) {
     background-color: hsla(220,80%,50%,0.2);
   }
 
-
   h1 {
     font-size: 16px;
     /*display: inline;*/
@@ -28,7 +27,7 @@ module.exports = async function($) {
 
   .grid-container {
     display: grid;
-    grid-row-gap: 50px SkyBlue;
+    grid-row-gap: 20px;
     margin: 20px;
   }
 
@@ -51,10 +50,20 @@ module.exports = async function($) {
     margin: 10px 15px;
   }
 
+  a.button {
+    background: mediumseagreen;
+    color: white;
+    border-radius: 10px 40%;
+    margin-right: 30px;
+
+  }
+
+
 </style>
 </head>
 
 <body>
+
   <div class="grid-container">
 
 <div class="experience"><strong>Work experience</strong></div>

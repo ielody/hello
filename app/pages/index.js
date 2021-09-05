@@ -1,16 +1,16 @@
 module.exports = async function($) {
-  $.page.title = 'You are entering a creative space'
+  $.page.title = 'Welcome to a creative space'
   $.page.description = "Can't decide which website layout you want for your business? Reach out to me!"
   return /* html */`
     <style>
       main {
         text-align: left;
         background-color: hsla(220,80%,50%,0.2);
-        font-family: monospace;
+        font-family: Helvetica;
         padding-top: 2.5rem;
         padding: 2rem 0;
         max-width: 600px;
-        color: DarkSlateGray;
+        color: black;
       }
 
       h3,
@@ -42,6 +42,7 @@ module.exports = async function($) {
         border-radius: 10px 50%;
       }
 
+
     </style>
 
 <div id="img">
@@ -53,17 +54,17 @@ module.exports = async function($) {
 <p>
 Hello! My name is Ingeborg and I'm a problem-solver. My love of
 new challenges has brought me on the path of <strong>web development</strong>, and
-I build user-friendly websites with a clean and simple design. No fuzz. No drama.<br><br>
-I also have experience as a <strong>SEO writer</strong> and worked as a freelance Norwegian <strong>translator</strong> for years.
-Take a look at my portfolio to see examples of what I can do.
+I build user-friendly websites with a clean and simple design.
+I am also a <strong>SEO article writer</strong> and freelance Norwegian <strong>translator</strong>.
+Take a look at my <a href="https://ielody.com/portfolio.html" target="blank">portfolio</a> to see examples of what I can do.
 </p>
-<hr>
 
 <h3>What I can help you with</h3>
 <ul>
-  <li>Build a simple, customized and user-friendly website </li>
-  <li>Write SEO blog articles for your website to attract more organic traffic to the site</li>
+  <li>Build a simple, customized and user-friendly website for your business </li>
+  <li>Write SEO blog articles for your website to attract more traffic to your site</li>
 </ul>
+
 
 <div class="mail">
   <a class="button" href="mailto:ieldoy@gmail.com">Send me an email</a>
