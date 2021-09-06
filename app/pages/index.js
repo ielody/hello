@@ -54,7 +54,7 @@ module.exports = async function($) {
     </style>
 
 <div id="img">
-  <img src="img/ielody-modified.png" width="160" align=middle alt="portfolio">
+  <img src="img/ielody-modified.png" align=middle alt="portfolio">
 </div>
 
 <h1>About me</h1>
