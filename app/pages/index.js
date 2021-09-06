@@ -46,7 +46,11 @@ module.exports = async function($) {
         background-color: hotpink;
         color: white;
       }
-
+      img {
+        width: auto ;
+        max-width: 50% ;
+        height: auto ;
+      }
     </style>
 
 <div id="img">
