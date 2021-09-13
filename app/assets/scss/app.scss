@@ -12,6 +12,10 @@ h3 {
   font-size: 14px;
 }
 
+body {
+  background-color: #E6E6FA;
+}
+
 form button ~ a,
 nav a {
   margin-left: 0.5rem;
@@ -64,9 +68,26 @@ a.active {
   padding-top: 1.5rem;
 }
 
-a.button{
-  background: lightgreen;
+/*a.button{
+  background: lightseagreen;
   color: white;
   border-radius: 10px;
+}*/
 
+footer {
+  background-color: hotpink;
+  color: white;
+}
+
+a.button{
+  background: DarkMagenta;
+  color: white;
+  border-radius: 10px 50%;
+  transition-duration: 0.3s;
+
+}
+
+.button:hover {
+  background-color: hotpink;
+  color: white;
 }

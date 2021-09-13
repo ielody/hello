@@ -12,14 +12,12 @@ module.exports = async function($) {
 
   h1 {
     font-size: 16px;
-    /*display: inline;*/
     margin: 5px;
     align-content: left;
   }
 
   h2 {
     font-size: 14px;
-    /*display: inline;*/
     margin: 15px;
     font-style: italic;
     align-content: right;
@@ -28,7 +26,7 @@ module.exports = async function($) {
   .grid-container {
     display: grid;
     grid-row-gap: 20px;
-    margin: 20px;
+    margin: 26px;
   }
 
   .grid-item {
@@ -36,15 +34,16 @@ module.exports = async function($) {
     font-size: 16px;
     text-align: left;
     background-color: white;
+    border-radius: 12px;
   }
 
-  .experience {
+  #experience {
     text-align: center;
     font-size: 22px;
     margin: 10px 15px;
   }
 
-  .education {
+  #education {
     text-align: center;
     font-size: 20px;
     margin: 10px 15px;
@@ -62,7 +61,6 @@ module.exports = async function($) {
     color: white;
   }
 
-
 </style>
 </head>
 
@@ -70,7 +68,7 @@ module.exports = async function($) {
 
   <div class="grid-container">
 
-<div class="experience"><strong>Work experience</strong></div>
+<div id="experience"><strong>Work experience</strong></div>
 
 <div class="grid-item">
   <h1>Editor for Nielsen</h1>
@@ -102,7 +100,7 @@ module.exports = async function($) {
     </ul>
 </div>
 
-<div class="education"><strong>Education</strong></div>
+<div id="education"><strong>Education</strong></div>
 
 <div class="grid-item">
   <h1>Media Science, Bachelor of Arts<h1>
