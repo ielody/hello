@@ -14,13 +14,15 @@ module.exports = async function($) {
     background-color: #E6E6FA;
   }
 
-  .main {
-    max-width: 1000px;
-    margin: auto;
+  main {
+    text-align: center;
+    padding: 20px 0;
+    max-width: 600px;
+    background-color: hsla(220,80%,50%,0.2);
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 30px;
     word-break: break-all;
   }
 
@@ -72,13 +74,12 @@ module.exports = async function($) {
 <!-- Main Content -->
 <div class="main">
 <h1>Portfolio</h1>
-<hr>
 
 <!-- Gallery Grid  -->
 <div class="row">
   <div class="column">
     <div class="content">
-      <img src="/img/image-41941.jpeg" alt="Colorful people by the river in Ganges in India" style="width:100%>">
+      <a href="/india.html"><img src="/img/image-41941.jpeg" alt="Colorful people by the river in Ganges in India" style="width:100%>"></a>
 <h3>Travel article about Varanasi in India</h3>
   <p>
   "Varanasi is everything I had imagined about India in one and the same city - what a colorful chaos! Varanasi is the city of the Ganges flows through and pilgrims come here every year to cleanse themselves with a bath in the river." <br></p>

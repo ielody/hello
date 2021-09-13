@@ -37,28 +37,11 @@ module.exports = async function($) {
     border-radius: 12px;
   }
 
-  #experience {
+  #experience,
+  #education {
     text-align: center;
     font-size: 22px;
     margin: 10px 15px;
-  }
-
-  #education {
-    text-align: center;
-    font-size: 20px;
-    margin: 10px 15px;
-  }
-
-  a.button{
-        background: DarkMagenta;
-        color: white;
-        border-radius: 10px 50%;
-        transition-duration: 0.3s;
-  }
-
-  .button:hover {
-    background-color: hotpink;
-    color: white;
   }
 
 </style>

@@ -39,19 +39,6 @@ module.exports = async function($) {
         font-size: 16px;
       }
 
-      a.button{
-        background: DarkMagenta;
-        color: white;
-        border-radius: 10px 50%;
-        transition-duration: 0.3s;
-
-      }
-
-      .button:hover {
-        background-color: hotpink;
-        color: white;
-      }
-
       .imgindex {
         text-align: center;
       }
