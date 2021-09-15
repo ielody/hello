@@ -16,7 +16,7 @@ module.exports = async function($) {
 <body>
 
 <h2>Varanasi</h2>
-  <img src="/img/image-41941.jpeg" alt="People along Ganges in Varanasi">
+  <img src="/img/varanasi.jpeg" alt="People along Ganges in Varanasi">
 <p>Varanasi is everything I had imagined about India in one and the same city - what a colorful chaos! Varanasi is the city of the Ganges flows through and pilgrims come here every year to cleanse themselves with a bath in the river. The city is the oldest inhabited city in India and in the many streets along the river in the old city, life unfolds undisturbed in front of those who want to see. <br><br>At some of the gates, the rich and famous are cremated in the traditional way, on a small bonfire, before the body is sent out on the water. The old town is a maze of narrow streets to get lost in, but luckily it is easy to find your way back by walking down to the river bank. The best time is like elsewhere in India, best before everyone gets up, at sunrise.<br><br> The first morning in Varanasi, I walked down to the ghetto by my guesthouse, past one of the funeral ghats, where the smoke from the fire was still visible. My first stop was at a man who was selling chai out of a big pot. Right next to him sat two orange-clad monks enjoying the sun with a cup of chai. Furthermore, I walked past the main square, where the day before there had been so many people, scents, colors and music. By the high walls and steps that led down to the river, there were freshly washed sheets from the guesthouses in the streets. Despite its hectic exterior that sets all the senses in motion, Varanasi is a spiritual place with a kind of inner peace in all the chaos.</p>
 <br>
 

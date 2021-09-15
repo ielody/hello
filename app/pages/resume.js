@@ -7,7 +7,6 @@ module.exports = async function($) {
     text-align: center;
     padding: 20px 0;
     max-width: 600px;
-    background-color: hsla(220,80%,50%,0.2);
   }
 
   h1 {

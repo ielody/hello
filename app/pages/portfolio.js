@@ -11,14 +11,12 @@ module.exports = async function($) {
   body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    background-color: #E6E6FA;
   }
 
   main {
     text-align: center;
     padding: 20px 0;
     max-width: 600px;
-    background-color: hsla(220,80%,50%,0.2);
   }
 
   h1 {
@@ -54,6 +52,7 @@ module.exports = async function($) {
     padding: 10px;
   }
 
+
   /* Responsive layout - makes a two columns layout instead of one */
   @media screen and (max-width: 900px) {
       .column {
@@ -67,6 +66,8 @@ module.exports = async function($) {
       width: 100%;
       }
     }
+
+
 </style>
 
 <body>
@@ -79,28 +80,20 @@ module.exports = async function($) {
 <div class="row">
   <div class="column">
     <div class="content">
-      <a href="/india.html"><img src="/img/image-41941.jpeg" alt="Colorful people by the river in Ganges in India" style="width:100%>"></a>
-<h3>Travel article about Varanasi in India</h3>
+      <a href="/india.html"><img src="/img/varanasi.jpeg" alt="Colorful people by the river in Ganges in India" style="width:100%>"><h3>Travel segment: From tea plantations to the banks of Ganges</h3></a>
   <p>
-  "Varanasi is everything I had imagined about India in one and the same city - what a colorful chaos! Varanasi is the city of the Ganges flows through and pilgrims come here every year to cleanse themselves with a bath in the river." <br></p>
+  "Diverse India is one of the world's most colorful and exciting countries, and a beautiful jumble of religion, culture, language and food - a destination everyone should visit at least once in their life." <br></p>
     </div>
   </div>
 
   <div class="column">
     <div class="content">
-    <img src="/img/IMG_2351.jpeg" alt="Traditional fishing nets by the harbour at Fort Kochi" style="width:100%">
-<h3>Travel article about Fort Kochi</h3>
-  <p>Just a short ferry ride across the water from the city of Kochi is Fort Kochi. This was originally a fishing village, something you see again today along the water front where the old-fashioned fishing nets are stretched out ready for use.<br></p>
+    <a href="https://crowdfundhq.com/5-reasons-your-crowdfunding-site-should-have-a-blog.html" target="blank"><img src="/img/blogbusinessweb2.jpeg" alt="Why your website should have a blog" style="width:100%">
+<h3>5 reasons your crowdfunding site should have a blog</h3></a>
+  <p>This SEO article was written for CrowdfundHQ's blog to put focus on the platform's blog feature, attract more organic traffic and encourage platform users to actively use a blog on their business website.</p>
   </div>
 </div>
 
-<div class="column">
-    <div class="content">
-    <img src="/img/munnar3.jpeg" alt="Tea plantations in Munnar" style="width:100%">
-<h3>Travel article about Munnar</h3>
-<p>Munnar is a six-hour bus ride from Kochi, and is a mountain village surrounded by tea plantations, lakes and beautiful scenery. Already on the way up in the mountains, the view of lush forests, waterfalls and endless tea plantations was truly spectacular. <br></p>
-        </div>
-      </div>
 </body>
   `
 }

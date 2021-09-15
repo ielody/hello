@@ -3,6 +3,7 @@
 main {
   padding: 2rem 0;
   max-width: 600px;
+  background-color: hsla(220,80%,50%,0.2);
 }
 
 h1,
@@ -68,12 +69,6 @@ a.active {
   padding-top: 1.5rem;
 }
 
-/*a.button{
-  background: lightseagreen;
-  color: white;
-  border-radius: 10px;
-}*/
-
 footer {
   background-color: hotpink;
   color: white;
@@ -91,3 +86,14 @@ a.button{
   background-color: hotpink;
   color: white;
 }
+
+a, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+ color: hotpink;
+ text-decoration: none;
+}
+
