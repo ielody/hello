@@ -7,6 +7,7 @@ module.exports = async function($) {
     text-align: center;
     padding: 20px 0;
     max-width: 600px;
+    background-color: hsla(220,80%,50%,0.2);
   }
 
   h1 {
@@ -40,6 +41,12 @@ module.exports = async function($) {
   #education {
     text-align: center;
     font-size: 22px;
+    margin: 10px 15px;
+  }
+
+   {
+    text-align: center;
+    font-size: 20px;
     margin: 10px 15px;
   }
 

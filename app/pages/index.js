@@ -21,14 +21,8 @@ module.exports = async function($) {
       }
 
       h3,
-      h2 {
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-      }
-
+      h2,
       h1 {
-        font-size: 30px;
         margin: 10px;
         text-align: center;
       }
@@ -49,7 +43,7 @@ module.exports = async function($) {
   <img src="img/ielody-modified.png" height="200" width="200" alt="portfolio image">
 </div>
 
-<h1>About me</h1>
+<h3>About me</h3>
 
 <p>
 Hello! My name is Ingeborg and I'm a problem-solver. My love of
@@ -59,7 +53,7 @@ I am also a <strong>SEO article writer</strong> and freelance Norwegian <strong>
 Take a look at my <a href="/india.html">portfolio</a> to see examples of what I can do.
 </p>
 
-<h3>What I can help you with</h3>
+<h4>What I can help you with</h4>
 <ul>
   <li>Build a simple, customized and user-friendly website for your business </li>
   <li>Write SEO blog articles for your website to attract more traffic to your site</li>
