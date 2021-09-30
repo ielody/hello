@@ -37,41 +37,13 @@ module.exports = async function($) {
     width: 50%
   }
 
-  /*clear floats after row*/
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
   .content {
     background-color: #fff6f6;
     padding: 10px;
   }
 
-  a, a:focus, a:active {
-  text-decoration: none;
-  color: inherit;
-    }
 
-  a:hover {
-  color: hotpink;
-  text-decoration: none;
-  }
-
-  /* Responsive layout - makes a two columns layout instead of one */
-  @media screen and (max-width: 900px) {
-      .column {
-        width: 50%;
-      }
-    }
-
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      }
-    }
 
 </style>
 

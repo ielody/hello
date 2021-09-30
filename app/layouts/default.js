@@ -25,6 +25,7 @@ module.exports = async function($) {
           <a class="button" href="${$.link('index')}">Home</a>
           <a class="button" href="${$.link('resume')}">Resume</a>
           <a class="button" href="${$.link('portfolio')}">Portfolio</a>
+          <a class="button" href="${$.link('contactme')}">Contact me</a>
           </nav>
         </header>
         <script>
